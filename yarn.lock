@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+"@rollup/plugin-alias@^3.1.2":
+  version "3.1.2"
+  resolved "https://artifacts.apextoaster.com/repository/group-npm/@rollup/plugin-alias/-/plugin-alias-3.1.2.tgz#c585b05be4a7782d269c69d13def56f44e417772"
+  integrity sha512-wzDnQ6v7CcoRzS0qVwFPrFdYA4Qlr+ookA217Y2Z3DPZE1R8jrFNM3jvGgOf6o6DMjbnQIn5lCIJgHPe1Bt3uw==
+  dependencies:
+    slash "^3.0.0"
+
 "@rollup/plugin-commonjs@^18.0.0":
   version "18.0.0"
   resolved "https://artifacts.apextoaster.com/repository/group-npm/@rollup/plugin-commonjs/-/plugin-commonjs-18.0.0.tgz#50dc7518b5aa9e66a270e529ea85115d269825c4"
@@ -283,6 +290,11 @@ rollup@^2.44.0:
   integrity sha512-rGSF4pLwvuaH/x4nAS+zP6UNn5YUDWf/TeEU5IoXSZKBbKRNTCI3qMnYXKZgrC0D2KzS2baiOZt1OlqhMu5rnQ==
   optionalDependencies:
     fsevents "~2.3.1"
+
+slash@^3.0.0:
+  version "3.0.0"
+  resolved "https://artifacts.apextoaster.com/repository/group-npm/slash/-/slash-3.0.0.tgz#6539be870c165adbd5240220dbe361f1bc4d4634"
+  integrity sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==
 
 sourcemap-codec@^1.4.4:
   version "1.4.8"

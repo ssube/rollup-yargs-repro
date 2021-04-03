@@ -1,3 +1,4 @@
+import alias from '@rollup/plugin-alias';
 import commonjs from '@rollup/plugin-commonjs';
 import resolve from '@rollup/plugin-node-resolve';
 import typescript from '@rollup/plugin-typescript';
@@ -11,9 +12,13 @@ export default [{
     sourcemap: true,
   },
   plugins: [
+    alias({
+      entries: {
+        'yargs': './node_modules/yargs/index.cjs'
+      },
+    }),
     commonjs(),
     resolve({
-      mainFields: ['browser', 'main'],
       preferBuiltins: true,
     }),
     typescript(),
